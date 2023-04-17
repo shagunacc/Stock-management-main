@@ -1,0 +1,36 @@
+<h2>Add Supplier</h2>
+<hr>
+<form>
+    <div class="form-group">
+        <label for="exampleInputName">Name</label>
+        <input type="name" class="form-control" id="exampleInputName" [(ngModel)]="this.supplier.name" placeholder="Enter name">
+        
+      </div>
+      <br>
+    
+    <div class="form-group" >
+      <label for="exampleInputContact">Contact No</label>
+      <input type="contact" class="form-control" id="exampleInputContact" [(ngModel)]="supplier.contact" placeholder="enter contact no">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" [(ngModel)]="supplier.email" placeholder="Enter email">
+      
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="exampleInputStatus">Status :  </label>
+        <input type="status" class="form-control" id="exampleInputStatus" [(ngModel)]="supplier.status" placeholder="enter status">
+        <!-- <select type="text" value="" name="exampleInputStatus" id="exampleInputStatus">
+            <option>Active</option>
+            <option>Inactive</option>
+            
+        </select> -->
+      </div>
+      <br>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+
