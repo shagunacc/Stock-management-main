@@ -20,6 +20,7 @@ import { AddSupplierComponent } from './add-supplier/add-supplier.component';
 import { UpdateSupplierComponent } from './update-supplier/update-supplier.component'; 
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NewcompComponent } from './newcomp/newcomp.component';
 // import { AddItemComponent } from './add-item/add-item.component';
 
 @NgModule({
@@ -36,6 +37,7 @@ import { HttpClientModule } from '@angular/common/http';
    
     AddSupplierComponent,
     UpdateSupplierComponent,
+    NewcompComponent,
     // AddItemComponent
   ],
   imports: [
